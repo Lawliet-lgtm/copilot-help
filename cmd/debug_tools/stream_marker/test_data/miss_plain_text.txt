@@ -1,0 +1,10 @@
+这是一个普通的文本文件。
+没有包含任何流式���识。
+只有普通的中英文内容。
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+中文内容测试：
+床前明月光，疑是地上霜。
+举头望明月，低头思故乡。

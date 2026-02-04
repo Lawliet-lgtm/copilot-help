@@ -1,0 +1,1 @@
+./netguard-monitor watch --pid 12345 --interval 3s --dry-run --verbose

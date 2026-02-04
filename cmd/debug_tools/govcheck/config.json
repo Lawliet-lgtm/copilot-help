@@ -1,0 +1,85 @@
+{
+  "version": "1.0",
+  "detection": {
+    "threshold": 0.6,
+    "text_weight": 0.55,
+    "style_weight": 0.45,
+    "max_file_size": 104857600,
+    "workers": 16,
+    "recursive": true,
+    "exclude_extensions": [
+      ".exe",
+      ".dll",
+      ".so",
+      ".dylib",
+      ".zip",
+      ".rar",
+      ".7z",
+      ".tar",
+      ".gz",
+      ".mp3",
+      ".mp4",
+      ".avi",
+      ".mov",
+      ".wmv",
+      ".db",
+      ".sqlite",
+      ".mdb"
+    ],
+    "exclude_directories": [
+      ".git",
+      ".svn",
+      ".hg",
+      "node_modules",
+      "vendor",
+      "__pycache__",
+      ".cache"
+    ]
+  },
+  "ocr": {
+    "enabled": true,
+    "language": "chi_sim+eng",
+    "timeout": 30
+  },
+  "output": {
+    "format": "text",
+    "verbose": false,
+    "color": true,
+    "log_level": "info"
+  },
+  "weights": {
+    "text": {
+      "copy_number": 0.04,
+      "doc_number": 0.18,
+      "secret_level": 0.06,
+      "urgency_level": 0.05,
+      "issuer": 0.08,
+      "title": 0.15,
+      "title_type": 0.05,
+      "main_send": 0.08,
+      "attachment": 0.04,
+      "issue_date": 0.12,
+      "copy_to": 0.05,
+      "print_info": 0.05,
+      "org_name": 0.1,
+      "doc_type": 0.05,
+      "action_word": 0.04,
+      "formal_word": 0.04,
+      "header_word": 0.03,
+      "footer_word": 0.03,
+      "prohibited": 0.2
+    },
+    "style": {
+      "red_text": 0.12,
+      "red_header": 0.18,
+      "official_fonts": 0.1,
+      "title_font": 0.08,
+      "body_font": 0.07,
+      "a4_paper": 0.1,
+      "margins": 0.1,
+      "centered_title": 0.07,
+      "line_spacing": 0.05,
+      "seal_image": 0.13
+    }
+  }
+}

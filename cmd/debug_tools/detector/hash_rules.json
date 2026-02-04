@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "rule_id": 1001,
+      "rule_type": 0,
+      "rule_content": "ab1267247f8c264b638642264307e7c4",
+      "rule_desc": "机密文档1"
+    },
+    {
+      "rule_id": 1002,
+      "rule_type": 0,
+      "rule_content": "0e705d81f633ddf94c0e2b972eedc8ac",
+      "rule_desc": "机密文档2"
+    },
+    {
+      "rule_id": 1003,
+      "rule_type": 0,
+      "rule_content": "44dc406a318ffc84cdcdff99d2814e2c",
+      "rule_desc": "敏感数据表"
+    },
+    {
+      "rule_id": 1004,
+      "rule_type": 0,
+      "rule_content": "9f317be981ad21ee19b2bb59fc053bd0",
+      "rule_desc": "敏感配置"
+    }
+  ]
+}
