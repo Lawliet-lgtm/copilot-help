@@ -1,0 +1,21 @@
+{
+  "tool_paths": {
+    "pdftohtml": "D:\\OT-Security\\project\\fsnotify\\Release-25.12.0-0\\poppler-25.12.0\\Library\\bin\\pdftohtml.exe",
+    "pdftoppm":  "D:\\OT-Security\\project\\fsnotify\\Release-25.12.0-0\\poppler-25.12.0\\Library\\bin\\pdftoppm.exe",
+    "soffice":   "D:\\OT-Security\\project\\fsnotify\\Libre\\install\\program\\soffice.exe",
+    "tesseract": "D:\\OCR\\install\\tesseract.exe"
+  },
+  "fastpath_red_seal_pass": true,
+  "fastpath_red_header_min_conf": 0.50,
+  "fastpath_seal_min_conf": 0.50,
+  "fastpath_score": 85,
+  "balanced_enable": false,
+
+  "red_hsv": { "s_min": 40, "v_min": 20 },
+  "seal": { "min_area_px_150": 1500, "circularity_min": 0.45 },
+  "seal_edge_band_ratio_min": 0.55,
+
+  "score_threshold_pass": 80,
+  "default_dpi": 150,
+  "ofd_enable_heuristics": true
+}
